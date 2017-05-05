@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Registeration</title>
+    <style type="text/css", aligend = "centerda">
+      .label {text-align: right}
+      .error {color: red}
+      input,
+      button {
+        font: 14px "trebuchet MS", sans-serif;
+        padding: 8px 16px;
+        margin-left: 20px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        background-color: #ccc;
+        color:#fff;
+        background:#A9A9A9;
+        float: left;
+      }
+    body {
+    font: 14px "trebuchet MS", sans-serif;
+    background-color: dimgray;
+    margin-left: 50px;
+    border-left-width: 20px;
+  }
+    </style>
+
+  </head>
+
+  <body>
+  <center>
+    <h2>Sign Up</h2>
+    <form method="post">
+      <table>
+        <tr>
+          <td class="label">
+            Username
+          </td>
+          <td>
+            <input type="text" name="username" value="{{username}}">
+          </td>
+          <td class="error">
+            {{error_username}}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">
+            Password
+          </td>
+          <td>
+            <input type="password" name="password" value="">
+          </td>
+          <td class="error">
+            {{error_password}}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">
+            Verify Password
+          </td>
+          <td>
+            <input type="password" name="verify" value="">
+          </td>
+          <td class="error">
+            {{error_verify}}
+          </td>
+        </tr>
+
+        <tr>
+          <td class="label">
+            E-mail (optional)
+          </td>
+          <td>
+            <input type="text" name="email" value="{{email}}">
+          </td>
+          <td class="error">
+            {{error_email}}
+          </td>
+        </tr>
+      </table>
+      <input type="submit" value="Sign up" style="margin-left: 620px;">
+    </form>
+
+      <a href="/login">
+      <input type="submit" value="Sign in">
+      </a>
+
+  </center>
+  </body>
+
+</html>

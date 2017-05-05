@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20170501T064951Z
+UID:calendly-10971569
+DTSTART:20170502T070000Z
+DTEND:20170502T073000Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: 1:1 with Duncan\nEvent Description: Duncan is a Sof
+ tware Engineer at Microsoft\, with experience in machine learning. He's en
+ rolled in MLND\, CarND\, and AIND. Programming languages: Python\nDate & T
+ ime: 12:00am - 12:30am (Pacific Time - US & Canada) on Tuesday\, May 2\, 2
+ 017\n\nIn order to schedule a Udacity Career Counselor appointment\, you'r
+ e required to sign up using your Udacity.com email address.: I confirm the
+  above is my Udacity.com log-in email.\nWhat questions do you have that yo
+ u'd like to cover in this session?: Cover Letter and Resume\nWhat are your
+  career goals?: Pythone or JR.QA\nIn order to give your mentor a sense of 
+ your background\, please send one of the following: a link to your Udacity
+  Professional Profile\, LinkedIn\, GitHub\, or personal website.: Udacity\
+ n\nCancel this event:\nhttps://calendly.com/cancellations/FCGEVWM3JQSKX2EJ
+ \nReschedule this event:\nhttps://calendly.com/reschedulings/FCGEVWM3JQSKX
+ 2EJ\n
+SUMMARY:1:1 with Duncan with Duncan Chan
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

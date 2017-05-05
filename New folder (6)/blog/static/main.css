@@ -1,0 +1,15 @@
+body,
+input,
+button{
+        font: 14px "trebuchet MS", sans-serif;
+        padding: 8px 16px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        background-color: #ccc;
+        color:#fff;
+        background:#A9A9A9;
+        float: left;
+      }
+.label {text-align: right}
+.error {color: red}

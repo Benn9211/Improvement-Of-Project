@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>SIGN IN</title>
+    <link type="text/css" rel="stylesheet" href="/static/Login.css"/>
+
+    <style type="text/css">
+      .label {text-align: right}
+      .error {color: red}
+       body,
+      input,
+      button {
+        font: 14px "trebuchet MS", sans-serif;
+        padding: 8px 16px;
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        background-color: #ccc;
+        color:#fff;
+        background:#A9A9A9;
+        float: left;
+        background-color: blue;
+       -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+       -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+       animation-name: example;
+       animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: blue;}
+    to {background-color: yellow;}
+}
+    </style>
+
+  </head>
+
+  <body style="center">
+    <h2>SIGN IN</h2>
+    <form method="post">
+      <table>
+        <tr>
+          <td class="label">
+            Username
+          </td>
+          <td>
+            <input type="text" name="username" value="{{username}}">
+          </atd>
+        </tr>
+
+        <tr>
+          <td class="label">
+            Password
+          </td>
+          <td>
+            <input type="password" name="password" value="">
+          </td>
+        </tr>
+      </table>
+
+      <div class="error">
+        {{error}}
+      </div>
+      <input type="submit" value="Sign in" style="margin-left: 70px; padding-left: 20px;">
+    </form>
+    <a href="/Bhanu2/signup">
+    <input type="submit" value="Sign up">
+  </body>
+
+</html>
